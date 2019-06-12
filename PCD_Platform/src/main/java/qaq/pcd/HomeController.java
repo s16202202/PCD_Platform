@@ -18,7 +18,7 @@ public class HomeController {
 	public String login(Model model) {
      
 		
-		return "manager_page";
+		return "administrator_page";
 	}
 
 	@GetMapping("/manage_code")
