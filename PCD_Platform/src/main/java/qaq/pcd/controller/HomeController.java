@@ -1,4 +1,4 @@
-package qaq.pcd;
+package qaq.pcd.controller;
 
 
 import org.springframework.stereotype.Controller;
@@ -15,21 +15,19 @@ public class HomeController {
 	}
 
 	@GetMapping("/login")
-	public String login(Model model) {
-     
-		
-		return "administrator_page";
+	public String login(Model model) {	
+		return "templates_2/administrator_page";
 	}
 
 	@GetMapping("/manage_code")
 	public String Manage_code(Model model) {
        
-		return "manage_code";
+		return "templates_2/manage_code";
 	}
 	@GetMapping("/modify")
 	public String Modify(Model model) {
        
-		return "modify";
+		return "templates_2/modify";
 		
 	}
 	@GetMapping("/manage_project")
@@ -40,51 +38,51 @@ public class HomeController {
 	@GetMapping("/manage_team")
 	public String Manage_team(Model model) {
        
-		return "manage_team";
+		return "templates_2/manage_team";
 	}
 	@GetMapping("/update_coder")
 	public String Update_coder(Model model) {
        
-		return "update_coder";
+		return "templates_2/update_coder";
 	}
 	@GetMapping("/luanch_document")
 	public String Luanch_Document(Model model) {
        
-		return "luanch_document";
+		return "templates_2/luanch_document";
 	}
 	@GetMapping("/manage_meeting")
 	public String Manage_meeting(Model model) {
        
-		return "manage_meeting";
+		return "templates_2/manage_meeting";
 	}
 	@GetMapping("/maintain_code")
 	public String Maintain_code(Model model) {
        
-		return "maintain_code";
+		return "templates_2/maintain_code";
 	}
 
 	@GetMapping("/search_info")
 	public String Search_info(Model model) {
        
-		return "search_info";
+		return "templates_2/search_info";
 	}
 
 	@GetMapping("/modify_info")
 	public String Modify_info(Model model) {
        
-		return "modify_info";
+		return "templates_2/modify_info";
 	}
 
 	@GetMapping("/add_info")
 	public String Add_info(Model model) {
        
-		return "add_info";
+		return "templates_2/add_info";
 	}
 
 	@GetMapping("delete_info")
 	public String Delete_info(Model model) {
        
-		return "delete_info";
+		return "templates_2/delete_info";
 	}
 	
 
